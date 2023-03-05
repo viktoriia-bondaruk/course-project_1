@@ -1,0 +1,19 @@
+.button {
+  min-width: 250px;
+  min-height: 60px;
+  background-color: rgba($color-light, 0.1);
+  border: 2px solid $color-light;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.125rem;
+  letter-spacing: 0.1em;
+  transition: background-color 0.25s;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+  }
+}
